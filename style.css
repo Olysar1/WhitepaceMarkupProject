@@ -75,8 +75,37 @@ li {
 
 /* HERO-SECTION STYLE STARTS HERE */
 
-.heroSection {
-  font-family: "Inter";
+h1 {
+  font-size: 50px;
 }
 
-/* HERO-SECTION STYLE STARTS HERE */
+h1 + p {
+  margin-top: 24px;
+}
+
+.heroSection {
+  font-family: "Inter";
+  background-image: url("assets/Element.svg");
+  background-repeat: no-repeat;
+  background-position: top 70% right 80%;
+}
+
+.heroBlock {
+  display: flex;
+  align-items: center;
+
+  padding: 14rem 11rem;
+}
+
+.heroTextBlock {
+  margin-bottom: 60px;
+  color: #4f9cf9;
+}
+
+.imageContainer {
+  background: #c4defd;
+  width: 50rem;
+  height: 25rem;
+}
+
+/* HERO-SECTION STYLE ENDS HERE */
