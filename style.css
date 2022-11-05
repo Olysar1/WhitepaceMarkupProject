@@ -83,23 +83,27 @@ h1 + p {
   margin-top: 24px;
 }
 
-.heroSection {
+.generalBlock {
   font-family: "Inter";
-  background-image: url("assets/Element.svg");
-  background-repeat: no-repeat;
-  background-position: top 70% right 80%;
+  padding: 7rem 11rem;
 }
 
 .heroBlock {
+  background-image: url("assets/Element.svg");
+  background-repeat: no-repeat;
+  background-position: top 70% right 80%;
+
   display: flex;
   align-items: center;
-
-  padding: 14rem 11rem;
 }
 
-.heroTextBlock {
-  margin-bottom: 60px;
+#heroTextBlock {
   color: #4f9cf9;
+}
+
+.textBlock {
+  margin-bottom: 60px;
+  color: #212529;
 }
 
 .imageContainer {
@@ -109,3 +113,55 @@ h1 + p {
 }
 
 /* HERO-SECTION STYLE ENDS HERE */
+
+/* WORK MANAGEMENT STYLE STARTS HERE */
+
+#workManagementBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 6.25rem;
+
+  background-image: url("assets/Group.svg");
+  background-repeat: no-repeat;
+  background-position: top 21% left;
+}
+
+.underlineElement {
+  background-image: url(assets/UnderlineElement.svg);
+  background-repeat: no-repeat;
+}
+
+#projectManagementTextBlock {
+  background-position: top 30% left;
+  background-size: 31.25rem;
+}
+
+#workTogetherTextBlock {
+  background-position: top 25% right;
+  background-size: 20rem;
+}
+
+#projectManagementImageContainer {
+  width: 67rem;
+}
+
+.projectManagement {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.workTogether {
+  display: flex;
+  align-items: center;
+  gap: 6.25rem;
+}
+
+#workTogetherImage {
+  width: 37.5rem;
+  height: 37.5rem;
+}
+
+/* WORK MANAGEMENT STYLE ENDS HERE */
+
+/* CUSTOMIZE IT TO YOUR NEEDS STYLE STARTS HERE */
