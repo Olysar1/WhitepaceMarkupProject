@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* HEADER STYLE STARTS HERE */
+body {
+  margin: 0 auto;
+}
+
+nav {
+  height: 5rem;
+  max-width: 192rem;
+  padding: 1.6rem 11rem;
+  font-family: "DM Sans";
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  font-size: 0.9rem;
+  font-weight: 500;
+
+  display: flex;
+  gap: 3rem;
+}
+
+.navBar {
+  display: flex;
+  gap: 1.7rem;
+}
+
+.navBar a {
+  color: #4f9cf9;
+}
+
+.buttons {
+  font-family: "Inter";
+  display: flex;
+  gap: 1.7rem;
+}
+
+#loginButton {
+  color: #043873;
+  background-color: #ffe492;
+  padding: 1rem 2rem;
+  font-weight: 600;
+}
+
+.bigBlueButton {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.3rem;
+  gap: 0.7rem;
+  border: none;
+
+  color: #fff;
+  background: #4f9cf9;
+  border-radius: 10px;
+
+  font-weight: 500;
+}
+
+/* HEADER STYLE ENDS HERE */
+
+/* HERO-SECTION STYLE STARTS HERE */
+
+.heroSection {
+  font-family: "Inter";
+}
+
+/* HERO-SECTION STYLE STARTS HERE */
