@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-/* HEADER STYLE STARTS HERE */
+/* "HEADER STYLE" STARTS HERE */
 body {
   margin: 0 auto;
 }
@@ -71,9 +71,9 @@ li {
   font-weight: 500;
 }
 
-/* HEADER STYLE ENDS HERE */
+/* "HEADER" STYLE ENDS HERE */
 
-/* HERO-SECTION STYLE STARTS HERE */
+/* "HERO-SECTION" STYLE STARTS HERE */
 
 h1 {
   font-size: 50px;
@@ -88,7 +88,7 @@ h1 + p {
   padding: 7rem 11rem;
 }
 
-.heroBlock {
+#heroBlock {
   background-image: url("assets/Element.svg");
   background-repeat: no-repeat;
   background-position: top 70% right 80%;
@@ -112,9 +112,9 @@ h1 + p {
   height: 25rem;
 }
 
-/* HERO-SECTION STYLE ENDS HERE */
+/* "HERO-SECTION" STYLE ENDS HERE */
 
-/* WORK MANAGEMENT STYLE STARTS HERE */
+/* "WORK-MANAGEMENT" STYLE STARTS HERE */
 
 #workManagementBlock {
   display: flex;
@@ -162,6 +162,27 @@ h1 + p {
   height: 37.5rem;
 }
 
-/* WORK MANAGEMENT STYLE ENDS HERE */
+/* "WORK-MANAGEMENT" STYLE ENDS HERE */
 
-/* CUSTOMIZE IT TO YOUR NEEDS STYLE STARTS HERE */
+/* "CUSTOMIZE-IT-TO-YOUR-NEEDS" STYLE STARTS HERE */
+
+#customizeBlock {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+#customizeTextBlock {
+  background-position: top 58% left 34%;
+  background-size: 18.5rem;
+}
+
+#customizeImageContainer {
+  width: 70rem;
+}
+
+/* "CUSTOMIZE-IT-TO-YOUR-NEEDS" STYLE ENDS HERE */
+
+/* "PRICING" STYLE STARTS HERE */
+
+/* "PRICING" STYLE ENDS HERE */
