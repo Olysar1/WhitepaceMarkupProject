@@ -343,12 +343,12 @@ h1 + p {
 
 /* "YOUR-DATA STYLE" STARTS HERE */
 
-#yourData {
+#yourDataBlock {
   display: flex;
   align-items: center;
 }
 
-#yourData .textBlock {
+#yourDataBlock .textBlock {
   background-image: url(./assets/FatUnderlineElement.svg);
   background-repeat: no-repeat;
   background-size: 15rem;
@@ -363,7 +363,7 @@ h1 + p {
 
 /* "OUR-SPONSORS" STYLE STARTS HERE */
 
-#ourSponsors {
+#ourSponsorsBlock {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -385,3 +385,30 @@ h1 + p {
 }
 
 /* "OUR-SPONSORS" STYLE ENDS HERE */
+
+/* "APPS" STYLE STARTS HERE */
+
+#appsBlock {
+  display: flex;
+  align-items: center;
+  gap: 6.5rem;
+
+  background-color: #043873;
+  background-image: url(./assets/GrayElement.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#appsBlock h1 {
+  color: #ffffff;
+}
+
+#appsBlock p {
+  color: #ffffff;
+}
+
+#appsBlockImage {
+  width: 29.5rem;
+}
+
+/* "APPS" STYLE ENDS HERE */
