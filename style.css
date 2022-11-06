@@ -173,7 +173,7 @@ h1 + p {
 }
 
 #customizeTextBlock {
-  background-position: top 58% left 34%;
+  background-position: top 50% left 44%;
   background-size: 18.5rem;
 }
 
@@ -185,4 +185,96 @@ h1 + p {
 
 /* "PRICING" STYLE STARTS HERE */
 
+#chooseYourPlan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+  background-size: 21rem;
+  background-position: top 18% right 31%;
+}
+
+#planP {
+  padding-bottom: 3.75rem;
+  padding-left: 14.688rem;
+  padding-right: 14.688rem;
+}
+
+.planPricing {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 0rem;
+}
+
+.planPricing button {
+  margin-top: 1.563rem;
+  padding: 0.8rem 1.5rem;
+}
+
+#inactiveButton {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffe492;
+  background-color: #ffffff;
+  color: #212529;
+}
+
+.plans {
+  border-style: solid;
+  border-radius: 0.625rem;
+  border-width: 1px;
+  border-color: #ffe492;
+  font-weight: 400;
+
+  margin: 3.859rem 0rem;
+  padding: 2.5rem 2.75rem;
+}
+
+.plans li {
+  padding: 0.625rem 0rem;
+  font-size: 0.875rem;
+}
+
+.plans img {
+  padding-right: 1.188rem;
+}
+
+#bestPlan {
+  border-style: hidden;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+  margin: 2rem;
+  padding: 4rem 2.5rem 2rem;
+  font-weight: 500;
+  color: #043873;
+}
+
+#bestPlan img {
+  filter: invert(50%) sepia(99%) saturate(1159%) hue-rotate(190deg)
+    brightness(100%) contrast(96%);
+}
+
+.planTextBox {
+  margin: 1.563rem;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.563rem;
+}
+
+.plans span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.plans h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.plans p {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
 /* "PRICING" STYLE ENDS HERE */
