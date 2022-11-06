@@ -412,3 +412,63 @@ h1 + p {
 }
 
 /* "APPS" STYLE ENDS HERE */
+
+/* "TESTIMONIAL" STYLE STARTS HERE */
+
+#testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 300;
+
+  background-image: url(./assets/FatterUnderlineElement.svg);
+  background-repeat: no-repeat;
+  background-size: 13rem;
+  background-position: top 14.5% right 45.5%;
+}
+
+#testimonial p {
+  font-weight: 400;
+}
+
+#testimonial h1 {
+  color: #212529;
+  text-align: center;
+}
+
+#testimonial h5 {
+  font-size: 17px;
+}
+
+#testimonial img {
+  width: 6.8rem;
+}
+
+#firstUser {
+  color: #01252a;
+  background-color: #ffffff;
+}
+
+.nameStar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
+  padding-top: 50px;
+}
+
+.userComments .plans {
+  border-style: hidden;
+  background: #4f9cf9;
+}
+
+.userComments {
+  display: flex;
+  gap: 1.6rem;
+}
+
+/* "TESTIMONIAL" STYLE ENDS HERE */
